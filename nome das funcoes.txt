@@ -1,0 +1,80 @@
+habilitarDemux16()
+
+desabilitarDemux16()
+
+habilitarDemux16_1()
+
+desabilitarDemux16_1()
+
+clockRegistradorA()
+
+clockRegistradorB()
+
+clockRegistradorSaidaUla()
+
+clockRegistradorBarramento()
+
+clockRegistradorAcumulador()
+
+clockRegistradorDadosMemoria()
+
+clockRegistradorEnderecamentoMemoria()
+
+clockRegistradorPonteiroPilha()
+
+clockRegistradorContadorPrograma()
+
+clockRegistradorBarramentoRetorno()
+
+clockRegistradorInstrucoes()
+
+habilitarRegistradorSaidaUla()
+
+habilitarRegistradorBarramento()
+
+habilitarRegistradorAcumulador()
+
+habilitarRegistradorDadosMemoria()
+
+habilitarRegistradorEnderecamentoMemoria()
+
+habilitarRegistradorPonteiroPilha()
+
+habilitarRegistradorContadorPrograma()
+
+habilitarRegistradorBarramentoRetorno()
+
+habilitarRegistradorInstrucoes()
+
+
+byte BARRAMENTO_CPU_8E
+
+byte CONTADOR_PROGRAMA
+
+byte REGISTRADOR_ENDERECAMENTO_MEMORIA
+
+byte REGISTRADOR_DADOS_MEMORIA
+
+byte PONTEIRO_PILHA
+
+byte ACUMULADOR
+
+byte OPERANDO_A
+
+byte OPERANDO_B
+
+byte REGISTRADOR_SAIDA_ULA
+
+byte REGISTRADOR_INSTRUCOES
+
+byte DECODIFICADOR_INSTRUCOES
+
+bool STATUS_FLAG_ZERO
+
+bool STATUS_FLAG_NEGATIVO
+
+bool STATUS_FLAG_CARRY
+
+decrementaPonteiroPilha()
+
+incrementaPonteiroPilha()
